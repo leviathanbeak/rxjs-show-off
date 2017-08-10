@@ -1,0 +1,22 @@
+{
+    "name": "rxjs-stuff",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "babel-preset-env": "^1.6.0",
+        "webpack": "^3.5.3",
+        "webpack-dev-server": "^2.7.1"
+    },
+    "dependencies": {
+        "rxjs": "^5.4.2"
+    }
+}

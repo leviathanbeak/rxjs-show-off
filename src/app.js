@@ -1,4 +1,5 @@
 import Rx from 'rxjs/Rx'
+import getSubscriber from './getSubscriber'
 
 const input = document.getElementById('input')
 const button = document.getElementById('button')
@@ -25,3 +26,15 @@ const mouseMove$ = Rx.Observable.fromEvent(document, 'mousemove')
 mouseMove$.subscribe(x => {
     coords.innerHTML = `X: ${x.clientX} - Y: ${x.clientY}`
 })
+
+const nums = [1, 2, 3, 4, 5, 6, 7]
+
+Rx.Observable.from(nums).subscribe(getSubscriber('nums'))
+
+const map = new Map([
+    [1, 2],
+    [3, 4],
+    [5, 6]
+])
+
+Rx.Observable.from(map).subscribe(getSubscriber('map'))

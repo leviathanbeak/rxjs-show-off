@@ -1,5 +1,6 @@
 import Rx from 'rxjs/Rx'
 import getSubscriber from './getSubscriber'
+import * as observables from './observables'
 
 const input = document.getElementById('input')
 const button = document.getElementById('button')

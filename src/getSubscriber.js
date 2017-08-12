@@ -7,7 +7,7 @@ function getSubscriber(id) {
             console.log(`ID: ${id} - x: ${err}`)
         },
         complete: function() {
-            console.log('completed')
+            console.log(`ID: ${id} -> completed`)
         }
     }
 }

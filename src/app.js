@@ -13,4 +13,6 @@
 //import * as zip from './zip'
 //import * as utility from './utility'
 //import * as subject from './subject'
-import * as error from './error'
+//import * as error from './error'
+//import * as ex1 from './paradigm/example_01'
+import * as ex2 from './paradigm/example_02'

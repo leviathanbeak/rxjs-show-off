@@ -15,4 +15,6 @@
 //import * as subject from './subject'
 //import * as error from './error'
 //import * as ex1 from './paradigm/example_01'
-import * as ex2 from './paradigm/example_02'
+//import * as ex2 from './paradigm/example_02'
+//import * as ex3 from './paradigm/example_03'
+import * as ex4 from './paradigm/example_04'

@@ -23,4 +23,5 @@
 //import * as ex6 from './paradigm/merge and concat'
 //import * as ex7 from './paradigm/map, mergeMap, switchMap'
 //import * as ex8 from './paradigm/scan reduce'
-import * as ex9 from './paradigm/buffers'
+//import * as ex9 from './paradigm/buffers'
+import * as spaceship from './mastering/spaceshipt game'

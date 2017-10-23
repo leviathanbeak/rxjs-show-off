@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#helloCanvas {
+    width: 500px;
+    height: 500px;
+    border: thin solid cornflowerblue;
+    box-shadow: rgba(60, 60, 70, 0.7) 2px 2px 8px;
+}

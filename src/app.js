@@ -24,4 +24,5 @@
 //import * as ex7 from './paradigm/map, mergeMap, switchMap'
 //import * as ex8 from './paradigm/scan reduce'
 //import * as ex9 from './paradigm/buffers'
-import * as spaceship from './mastering/spaceshipt game'
+//import * as spaceship from './mastering/spaceshipt game'
+import * as helloCanvas from './canvas/helloCanvas'

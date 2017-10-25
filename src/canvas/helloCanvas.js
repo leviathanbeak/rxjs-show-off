@@ -1,15 +1,15 @@
-require('./helloCanvas.css')
+require('./style.css')
 
-//create a canvas
+// create a canvas
 const canvas = document.createElement('canvas')
-canvas.setAttribute('id', 'helloCanvas')
+canvas.setAttribute('id', 'canvas')
 
-//canvas itself has only two attributes WIDTH and HEIGHT!
+// canvas itself has only two attributes WIDTH and HEIGHT!
 // and these methods getContext(), toDataURL(), and toBlob() (could be others too)
 
 const TEXT = `I'm Awesome!`
 
-//get context
+// get context
 const context = canvas.getContext('2d')
 context.font = '44px Arial'
 context.strokeStyle = 'skyblue'

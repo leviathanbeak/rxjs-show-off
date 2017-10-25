@@ -3,7 +3,7 @@ body {
     justify-content: center;
 }
 
-#helloCanvas {
+#canvas {
     width: 500px;
     height: 500px;
     border: thin solid cornflowerblue;

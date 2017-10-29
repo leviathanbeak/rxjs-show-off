@@ -33,3 +33,6 @@ drag$.subscribe(event => {
     panel.style.left = event.clientX + 'px'
     panel.style.top = event.clientY + 'px'
 })
+
+// this one could be also implemented like this
+const drag2$ = mouseDown$.map(() => mouseMove$.takeUntil(mouseUp$)).concatAll()

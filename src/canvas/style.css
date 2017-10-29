@@ -4,8 +4,9 @@ body {
 }
 
 #canvas {
-    width: 500px;
+    width: 1000px;
     height: 500px;
     border: thin solid cornflowerblue;
     box-shadow: rgba(60, 60, 70, 0.7) 2px 2px 8px;
+    margin-top: 20px;
 }

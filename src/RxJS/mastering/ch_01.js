@@ -20,7 +20,6 @@ function get(url) {
         }
 
         client.onerror = () => observer.onError(new Error('Uknown Error'))
-
         client.send()
     })
 }
